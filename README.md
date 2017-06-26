@@ -31,15 +31,7 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
 
 
 ### **Processo de submissão** ###
-
-O candidato deverrá implementar a solução e enviar um pull request para este repositório com a solução.
-O processo de Pull Request funciona da seguinte maneira:
-- Candidato farrá um fork desse repositório (não irá clonar direto!)
-- Fará seu projeto nesse fork.
-- Commitará e subirá as alterações para o __SEU__ fork.
-- Pela interface do GitHub, irá enviar um Pull Request.
-
-Se possível deixar o fork público para facilitar a inspeção do código.
+O candidato deverá criar um projeto no seu github e adicionar o usuário muxilabs para acompanhamento dos seus commits. 
 
 ### **ATENÇÂO** ###
 Não se deve tentar fazer o PUSH diretamente para ESTE repositório!
