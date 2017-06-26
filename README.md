@@ -26,12 +26,14 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
 - Testes no projeto (unitários e por tela)
 - Testes funcionais (que naveguem pelo aplicativo como casos de uso)
 - Cache de imagens e da API
-- Suportar mudanças de orientação das telas sem perder estado
+- Suporte a mudança de orientação das telas sem perder estado
+- README com explicações sobre o projeto, decisões tomadas, como gerar o apk e como rodar os testes
  
 
 
 ### **Processo de submissão** ###
-O candidato deverá criar um projeto no seu github e adicionar o usuário muxilabs para acompanhamento dos seus commits. 
+O tempo para executar pode variar, porém é esperado que o mesmo seja concluído em no máximo uma (01) semana. Procure atender os requisitos na sua totalidade
+O candidato deverá criar um projeto no seu github e adicionar o usuário muxilabs para acompanhamento dos seus commits
 
 ### **ATENÇÂO** ###
 Não se deve tentar fazer o PUSH diretamente para ESTE repositório!
