@@ -33,6 +33,7 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
 
 ### **Processo de submissão** ###
 O tempo para executar pode variar, porém é esperado que o mesmo seja concluído em no máximo uma (01) semana. Procure atender os requisitos na sua totalidade
+
 O candidato deverá criar um projeto no seu github e adicionar o usuário muxilabs para acompanhamento dos seus commits
 
 ### **ATENÇÂO** ###
