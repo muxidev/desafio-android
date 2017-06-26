@@ -9,7 +9,7 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
   Exe: CalculeNative.java
   - ```java
     public class NativeConvert {
-        public void native assyncConverteToReal(float valueToConvert);
+        public void native asyncConverteToReal(float valueToConvert);
         public void nativeCallBack(float convertedValue){
             // body
         }
