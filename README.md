@@ -1,12 +1,13 @@
 # Desafio Muxi Android
 O aplicativo deverá consumir o json obtido através de GET na URL https://raw.githubusercontent.com/muxidev/desafio-android/master/fruits.json e utilizar código nativo (C/C++) para realizar um processamento.
 
-### O aplicativo deverá atender conter
+### O aplicativo deverá conter
  - [1] Lista de frutas. 
  - [2] Cada Item da lista deve exibir o nome da fruta e preço em dollar.
  - [3] Quando ocorrer o click em item da lista, deverá ser apresentada uma tela de mais informações. Nela, uma foto, nome e preço em dollar e em real. 
   -[4] O preço em real deverá ser calculado assincronamente através de um código nativo (C/C++), sendo que 1 dollar corresponde a 3,5 reais.
-  - Exe: CalculeNative.java```java
+  - Exe: CalculeNative.java
+	```java
     public class NativeConvert {
         public void native asyncConverteToReal(float valueToConvert);
         public void nativeCallBack(float convertedValue){
@@ -15,18 +16,16 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
     }
       ```
   
-  
-### A solução DEVE conter
-- Sistema de build Gradle
--  Material Design
 
 ### Ganha + pontos se conter
-- Framework para comunicação com API
-- Testes no projeto (unitários e por tela)
-- Testes funcionais (que naveguem pelo aplicativo como casos de uso)
-- Cache de imagens e da API
-- Suporte a mudança de orientação das telas sem perder estado
-- README com explicações sobre o projeto, decisões tomadas, como gerar o apk e como rodar os testes
+- [4] Cache de imagens e da API
+- [5] Framework para comunicação com API
+- [6] Testes no projeto (unitários e por tela)
+- [7] Testes funcionais (que naveguem pelo aplicativo como casos de uso)
+- [8] Suporte a mudança de orientação das telas sem perder estado
+- [9] Build do apk utilizando o Android.mk
+- [10] Material Design
+- [11] README com explicações sobre o projeto, decisões tomadas, como gerar o apk e como rodar os testes
  
 
 
@@ -38,4 +37,7 @@ O candidato deverá criar um projeto no seu github. Após o término do desafio 
 ![Alt text](images/add-permission.jpg?raw=true "Exemplo de como dar permissão para o usuário Muxi Labs")
 ### **ATENÇÂO** ###
 Não se deve tentar fazer o PUSH diretamente para ESTE repositório!
-Código nativo significa um código escrito na mesma lingaguem que o sistema operacional. No caso Android, C/C++ ([Android NDK](https://developer.android.com/ndk/index.html)). 
+
+Código nativo significa um código escrito na mesma linguagem que o sistema operacional. No caso Android, C/C++ ([Android NDK](https://developer.android.com/ndk/index.html)).
+
+Não serão analisados projetos que não contemplarem os requisitos: [1], [2] e [3].
