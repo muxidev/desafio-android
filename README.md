@@ -5,7 +5,7 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
  - [1] Lista de frutas. 
  - [2] Cada Item da lista deve exibir o nome da fruta e preço em dollar.
  - [3] Quando ocorrer o click em item da lista, deverá ser apresentada uma tela de mais informações. Nela, uma foto, nome e preço em dollar e em real. 
- -[4] O preço em real deverá ser calculado assincronamente através de um código nativo (C/C++), sendo que 1 dollar corresponde a 3,5 reais.
+ - [4] O preço em real deverá ser calculado assincronamente através de um código nativo (C/C++), sendo que 1 dollar corresponde a 3,5 reais.
   - Exe: CalculeNative.java
 	```java
     public class NativeConvert {
