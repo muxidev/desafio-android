@@ -1,5 +1,5 @@
-# Desafio Muxi Android
-O aplicativo deverá consumir o json obtido através de GET na URL https://raw.githubusercontent.com/muxidev/desafio-android/master/fruits.json e utilizar código nativo (C/C++) para realizar um processamento.
+# Desafio Muxi Mobile
+O aplicativo deverá consumir o json obtido através de GET na URL https://raw.githubusercontent.com/muxidev/desafio-android/master/fruits.json e utilizar código C/C++ para realizar um processamento.
 
 ### O aplicativo deverá conter
  - [1] Lista de frutas. 
@@ -18,14 +18,14 @@ O aplicativo deverá consumir o json obtido através de GET na URL https://raw.g
   
 
 ### Ganha + pontos se conter
-- [4] Cache de imagens e da API
-- [5] Framework para comunicação com API
-- [6] Testes no projeto (unitários e por tela)
-- [7] Testes funcionais (que naveguem pelo aplicativo como casos de uso)
-- [8] Suporte a mudança de orientação das telas sem perder estado
-- [9] Build do apk utilizando o Android.mk
-- [10] Material Design
-- [11] README com explicações sobre o projeto, decisões tomadas, como gerar o apk e como rodar os testes
+- [5] Cache de imagens e da API
+- [6] Framework para comunicação com API
+- [7] Testes no projeto (unitários e por tela)
+- [8] Testes funcionais (que naveguem pelo aplicativo como casos de uso)
+- [9] Suporte a mudança de orientação das telas sem perder estado
+- [10] Build do apk utilizando o Android.mk (Android)
+- [11] Material Design
+- [12] README com explicações sobre o projeto, decisões tomadas, como gerar o apk e como rodar os testes
  
 
 
